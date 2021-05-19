@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.float-text {
+    background: rgb(122, 12, 122);
+    height: 10vh;
+}
+
+
+marquee {
+    font-size: 2.0rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.content {
+    background: rgb(194, 129, 192);
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 20px;
+}
+
+.content-1, .content-2, .content-3, .content-4, .content-5, 
+.content-6, .content-7, .content-8, .content-9, .content-10
+ {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 25px;
+    transition: transform .2s;
+}
+
+.image:hover {
+    color: slategrey;
+    transform: scale(1.2);
+}
+
+h3 {
+    margin-right: 20%;
+    margin-top: 11%;
+    color: white;
+    transition: transform .2s;
+}
+
+h3:hover {
+    color: slategrey;
+    transform: scale(0.8);
+}
+
+hr {
+    margin-top: 43px;
+   color: rgb(122, 12, 122);
+}
+
+/*MEDIA QUERY*/
+/*Mobile devices*/
+@media only screen and (max-width: 480px) {
+    .float-text {
+        width: 150vw;
+    }
+
+.content {
+    width: 150vw;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+    .content-1, 
+    .content-1, .content-2, .content-3, .content-4, .content-5, 
+    .content-6, .content-7, .content-8, .content-9, .content-10
+      {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    h3 {
+        margin-left: 10%;
+    }
+
+
+    .image {
+        margin-left: 15%;
+        margin-top: 5%;
+        border-radius: 25px;
+        transition: transform .2s;
+    }
+    
+    .image:hover {
+        color: slategrey;
+        transform: scale(1.2);
+    }
+    
+    h3 {
+        margin-right: 20%;
+        margin-top: 11%;
+        color: white;
+        transition: transform .2s;
+    }
+    
+    h3:hover {
+        color: slategrey;
+        transform: scale(0.8);
+    }
+} 
+
+/*iPads, Tablets*/
+@media only screen and (max-width: 768px) {
+    .content {
+        background: rgb(194, 129, 192);
+        margin-left: 7%;
+        margin-right: 7%;
+        border-radius: 20px;
+    }
+    
+    .content-1, .content-2, .content-3, .content-4, .content-5, 
+    .content-6, .content-7, .content-8, .content-9, .content-10
+     {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .image {
+        margin-left: 8%;
+        margin-top: 5%;
+        border-radius: 25px;
+        transition: transform .2s;
+    }
+    
+    .image:hover {
+        color: slategrey;
+        transform: scale(1.2);
+    }
+    
+    h3 {
+        margin-right: 14%;
+        margin-top: 11%;
+        color: white;
+        transition: transform .2s;
+    }
+    
+    h3:hover {
+        color: slategrey;
+        transform: scale(0.8);
+    }
+    
+}
